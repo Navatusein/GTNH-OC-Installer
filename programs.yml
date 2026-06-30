@@ -19,12 +19,12 @@ programs:
     archiveUrl: https://github.com/Navatusein/GTNH-OC-Teleposer-Control/releases/latest/download/TeleposerControl.tar
     configDescriptorUrl: https://raw.githubusercontent.com/Navatusein/GTNH-OC-Teleposer-Control/main/config-descriptor.yml
 
-  - name: God Forge Control 2.8
+  - name: God Forge Control for 2.8
     description: ONLY FOR 2.8 Program for automating the production of Degenerate Quark Gluon Plasma and Molten Magmatter
     archiveUrl: https://github.com/Navatusein/GTNH-OC-God-Forge-Control/releases/latest/download/GodForgeControl.tar
     configDescriptorUrl: https://raw.githubusercontent.com/Navatusein/GTNH-OC-God-Forge-Control/main/config-descriptor.yml
 
-  - name: God Forge Control 2.9+
+  - name: God Forge Control for 2.9+
     description: ONLY FOR 2.9+ Program for automating the production of Degenerate Quark Gluon Plasma and Molten Magmatter
     archiveUrl: https://github.com/Navatusein/GTNH-OC-God-Forge-Control/releases/latest/download/GodForgeControl.tar
     configDescriptorUrl: https://raw.githubusercontent.com/Navatusein/GTNH-OC-God-Forge-Control/develop/config-descriptor.yml
