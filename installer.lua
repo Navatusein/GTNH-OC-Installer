@@ -18,7 +18,7 @@ local component = require("component")
 ---@field tag string?
 ---@field configDescriptorUrl string
 
-local programListUrl = "https://raw.githubusercontent.com/Navatusein/GTNH-OC-Installer/main/programs.lua"
+local programsUrl = "https://raw.githubusercontent.com/Navatusein/GTNH-OC-Installer/main/programs.lua"
 
 local tarManUrl = "https://raw.githubusercontent.com/mpmxyz/ocprograms/master/usr/man/tar.man"
 local tarBinUrl = "https://raw.githubusercontent.com/mpmxyz/ocprograms/master/home/bin/tar.lua"
@@ -38,7 +38,7 @@ end
 
 ---Check connection to github
 local function checkGithub()
-  local success, request = pcall(internet.request, programListUrl)
+  local success, request = pcall(internet.request, programsUrl)
 
 
 	if not success then
@@ -216,7 +216,7 @@ local function main()
   term.write("Welcome to Navatusein's programs installer\n\n")
 
   downloadTarUtility()
-  local programList = getProgramList(programListUrl)
+  local programs = getProgramList(programsUrl)
   local program = chooseProgram(programs)
   local programName, programUrl = chooseVersion(program)
 
