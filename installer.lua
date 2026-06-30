@@ -197,7 +197,7 @@ local function downloadProgram(programName, programUrl)
   term.write("Installing "..programName.."\n")
 
   if filesystem.exists("/home/config.lua") then
-    shell.execute("mv config.lua config.prev.lua")
+    shell.execute("mv /home/config.lua /home/config.prev.lua")
   end
 
   shell.execute("wget -fq "..programUrl.." program.tar")
