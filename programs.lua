@@ -61,7 +61,7 @@ local programs = {
       },
       {
         gtnhVersion = "2.9+",
-        configDescriptorUrl = "https://raw.githubusercontent.com/Navatusein/GTNH-OC-God-Forge-Control/main/config-descriptor.yml",
+        configDescriptorUrl = "https://raw.githubusercontent.com/Navatusein/GTNH-OC-God-Forge-Control/develop/config-descriptor.yml",
         tag = "v2.0.0-dev.2"
       }
     }
