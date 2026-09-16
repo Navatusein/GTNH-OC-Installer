@@ -32,7 +32,13 @@ local programs = {
     versions = {
       {
         gtnhVersion = "2.8",
-        configDescriptorUrl = "https://raw.githubusercontent.com/Navatusein/GTNH-OC-Water-Line-Control/main/config-descriptor.yml"
+        configDescriptorUrl = "https://raw.githubusercontent.com/Navatusein/GTNH-OC-Water-Line-Control/main/config-descriptor.yml",
+        tag = "v1.0.8"
+      },
+      {
+        gtnhVersion = "2.9+",
+        configDescriptorUrl = "https://raw.githubusercontent.com/Navatusein/GTNH-OC-Water-Line-Control/develop/config-descriptor.yml",
+        tag = "v2.0.0-dev.1"
       }
     }
   },
